@@ -1,16 +1,11 @@
 {
     "appname": "Your App Name",
-    "redirecturl": "https://your-redirect-url.com",
+    "redirecturl": "https://your-redirect.com",
     "server": [
         {
-            "servername": "Server 1",
-            "serverurl": "https://your-download-server.com/file1.zip",
+            "servername": "Main Server",
+            "serverurl": "https://your-download-server.com/data.zip",
             "priority": 1
-        },
-        {
-            "servername": "Server 2", 
-            "serverurl": "https://your-backup-server.com/file2.zip",
-            "priority": 2
         }
     ]
 }
