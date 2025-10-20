@@ -4,7 +4,7 @@
     "server": [
         {
             "servername": "Main Server",
-            "serverurl": "https://github.com/aditya7543-adi/crunchyRool-/blob/main/data.zip",
+            "serverurl": "https://github.com/aditya7543-adi/crunchyRool-/raw/refs/heads/main/data.zip",
             "priority": 1
         }
     ]
