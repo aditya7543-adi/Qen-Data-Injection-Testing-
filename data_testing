@@ -1,30 +1,16 @@
 {
-  "app_name": "Auto Login System",
-  "redirect_url": "https://hackertmm.com/welcome",
-  "servers": [
-    {
-      "name": "Main Server",
-      "url": "https://your-server.com/data1.zip",
-      "type": "Standard",
-      "region": "Global",
-      "premium": false,
-      "priority": 10
-    },
-    {
-      "name": "Backup Server",
-      "url": "https://your-backup.com/data2.zip",
-      "type": "Backup",
-      "region": "Europe",
-      "premium": false,
-      "priority": 5
-    },
-    {
-      "name": "Premium Server",
-      "url": "https://premium-server.com/data3.zip",
-      "type": "Premium",
-      "region": "USA",
-      "premium": true,
-      "priority": 15
-    }
-  ]
+    "appname": "Your App Name",
+    "redirecturl": "https://your-redirect-url.com",
+    "server": [
+        {
+            "servername": "Server 1",
+            "serverurl": "https://your-download-server.com/file1.zip",
+            "priority": 1
+        },
+        {
+            "servername": "Server 2", 
+            "serverurl": "https://your-backup-server.com/file2.zip",
+            "priority": 2
+        }
+    ]
 }
