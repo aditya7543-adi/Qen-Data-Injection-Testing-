@@ -1,16 +1,8 @@
 {
-    "appname": "Your App Name",
-    "redirecturl": "https://your-redirect.com",
-    "server": [
-        {
-            "servername": "Main Server",
-            "serverurl": "https://github.com/aditya7543-adi/Quik-Tv/raw/refs/heads/main/Quik%20Tv%20data.zip",
-            "priority": 1
-        },
-        {
-            "servername": "Back-Up Server",
-            "serverurl": "https://github.com/aditya7543-adi/Quik-Tv/raw/refs/heads/main/Quik%20Tv%20data.zip",
-            "priority": 2
-        }
-    ]
+  "data": {
+    "servers": {
+      "server1": "https://github.com/aditya7543-adi/Quik-Tv/raw/refs/heads/main/Quik%20Tv%20data.zip",
+      "server2": "https://github.com/aditya7543-adi/Quik-Tv/raw/refs/heads/main/Quik%20Tv%20data.zip"
+    }
+  }
 }
